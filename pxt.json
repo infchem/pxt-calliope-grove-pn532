@@ -1,0 +1,19 @@
+{
+    "name": "pxt-calliope-grove-pn532",
+    "version": "0.0.1",
+    "description": "Grove NFC Tag",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "grove-pn532.ts",
+        "_locales/de/pxt-calliope-grove-pn532-jsdoc-strings.json",
+        "_locales/de/pxt-calliope-grove-pn532-strings.json"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/calliope-mini/pxt-calliope-grove-pn532.git"
+    },
+    "public": false
+}
