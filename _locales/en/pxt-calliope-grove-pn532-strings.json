@@ -1,5 +1,0 @@
-{
-  "grove_pn532.readNDEFText|block": "read text message in NFC tag",
-  "grove_pn532|block": "Grove NFC Tag",
-  "{id:category}Grove_pn532": "Grove_pn532"
-}

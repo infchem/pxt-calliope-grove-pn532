@@ -95,10 +95,10 @@ function findPassiveTarget() {
 }
 
 /**
-     * Read NDEF text record <10 bytes from Mifare-Tag.
+     * Read NDEF text record <10 bytes from Mifare tag.
      */
     //% weight=209
-    //% blockId=grove_pn532_textrecord block="lies Textnachricht aus NFC-Tag"
+    //% blockId=grove_pn532_textrecord block="read text message in NFC tag"
     //% parts="grove_pn532"
 export function readNDEFText(): string {
     if (!running) {
