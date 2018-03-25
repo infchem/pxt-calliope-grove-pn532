@@ -4,7 +4,7 @@ Read text records in ISO 14443-3A RFID chips like Mifare Ultralight with MakeCod
 
 ## MakeCode Blocks Example
 * English
-![alt text](https://github.com/infchem/pxt-calliope-grove-pn532/raw/master/mc_example_.png "MakeCode Blocks Example English")
+![alt text](https://github.com/infchem/pxt-calliope-grove-pn532/raw/master/mc_example_en.png "MakeCode Blocks Example English")
 * German 
 ![alt text](https://github.com/infchem/pxt-calliope-grove-pn532/raw/master/mc_example_de.png "MakeCode Blocks Example German")
 
