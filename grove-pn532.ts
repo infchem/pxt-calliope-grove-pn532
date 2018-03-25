@@ -50,9 +50,9 @@ function wakeup() {
     }
     // if something went wrong...
     if (!valid) {
-        basic.showIcon(IconNames.Sad);
-        basic.pause(500);
-        basic.clearScreen();
+        // basic.showIcon(IconNames.Sad);
+        // basic.pause(500);
+        // basic.clearScreen();
     } else {
         running = true;
     }
@@ -87,11 +87,11 @@ function findPassiveTarget() {
     }
 
     // if something went wrong...
-    if (targetID == 0) {
-        basic.showIcon(IconNames.Sad);
-        basic.pause(500);
-        basic.clearScreen();
-    }
+    // if (targetID == 0) {
+        // basic.showIcon(IconNames.Sad);
+        // basic.pause(500);
+        // basic.clearScreen();
+    // }
 }
 
 /**

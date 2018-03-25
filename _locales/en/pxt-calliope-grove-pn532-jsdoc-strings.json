@@ -1,0 +1,4 @@
+{
+  "grove_pn532": "Functions for the Seeedstudio Grove NFC.\r\nWIP: Reads NDEF text records <=11 chars from ISO14443-3A / Mifare\r\n* @author Mirek Hancl",
+  "grove_pn532.readNDEFText": "Read NDEF text record <10 bytes from Mifare-Tag."
+}
