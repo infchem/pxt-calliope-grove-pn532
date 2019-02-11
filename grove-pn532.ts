@@ -310,7 +310,7 @@ namespace grove_pn532 {
 	* Write NDEF text record to Mifare Ultralight tag.
 	*/
 	//% weight=209
-	//% blockId=grove_pn532_textrecord_write block="write %charsToWrite to NFC tag"
+	//% blockId=grove_pn532_textrecord_write block="write $charsToWrite to NFC tag"
 	//% parts="grove_pn532"
     export function writeNdefText(charsToWrite: string) {
         basic.showIcon(IconNames.Square);
