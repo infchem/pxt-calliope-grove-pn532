@@ -310,7 +310,8 @@ namespace grove_pn532 {
 	* Write NDEF text record to Mifare Ultralight tag.
 	*/
 	//% weight=210
-	//% block="write %charsToWrite to NFC tag"
+	//% blockId=grove_pn532_textrecord_write
+	//% block="write to NFC tag %charsToWrite"
 	//% parts="grove_pn532"
     export function writeNdefText(charsToWrite: string) {
         basic.showIcon(IconNames.Square);
@@ -389,7 +390,8 @@ namespace grove_pn532 {
 	 * Read NDEF text record from Mifare Ultralight tag.
      */
     //% weight=209
-    //% blockId=grove_pn532_textrecord block="read text message in NFC tag"
+    //% blockId=grove_pn532_textrecord_read
+	//% block="read text message in NFC tag"
     //% parts="grove_pn532"
     export function readNDEFText(): string {
         if (!running) {
