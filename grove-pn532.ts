@@ -306,6 +306,13 @@ namespace grove_pn532 {
         if (DEBUG_SERIAL) serial.writeLine("formatting finished...");
     }
 
+	/**
+	* Write NDEF text record to Mifare Ultralight tag.
+	*/
+	//% weight=209
+	//% blockId=grove_pn532_textrecord_write block="write text message to NFC tag"
+	//% block="show|string %charsToWrite"
+	//% parts="grove_pn532"
     export function writeNdefText(charsToWrite: string) {
         basic.showIcon(IconNames.Square);
 
