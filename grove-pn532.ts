@@ -307,6 +307,18 @@ namespace grove_pn532 {
     }
 
 	/**
+	* Converts number to string
+	*/
+	//% weight=212
+	//% blockId=grove_pn532_numberToString
+	//% block="convert to string %nr"
+	//% parts="grove_pn532"
+	export function convertNrToString(nr : number) : string {
+		return ""+nr;
+	}
+	
+	
+	/**
 	* Write NDEF text record to Mifare Ultralight tag.
 	*/
 	//% weight=210
