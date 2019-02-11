@@ -313,7 +313,7 @@ namespace grove_pn532 {
 	//% blockId=grove_pn532_textrecord_write
 	//% block="write to NFC tag %charsToWrite"
 	//% parts="grove_pn532"
-    export function writeNdefText(charsToWrite: string) {
+    export function writeNDEFText(charsToWrite: string) {
         basic.showIcon(IconNames.Square);
 
         if (DEBUG_SERIAL) serial.writeLine("Starting to write...");
